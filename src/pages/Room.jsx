@@ -33,7 +33,7 @@ const Room = () => {
           },
           sharedLinks:[
             {name:"copy link",
-            url:`https://video-streaming-ecru.vercel.app/${roomId}`}
+            url:`https://video-streaming-ecru.vercel.app/room/${roomId}`}
           ]
         });
     };
