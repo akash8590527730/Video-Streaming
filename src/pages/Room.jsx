@@ -32,7 +32,7 @@ const Room = () => {
       sharedLinks: [
         {
           name: "copy link",
-          url: `https://video-streaming-ecru.vercel.app/room/${roomId}`
+          url: `${window.location.origin}/room/${roomId}`
         }
       ]
     });
